@@ -71,7 +71,7 @@ const VERIFICATION_CLIENT_SRC = [
 gulp.task('build-verification-client', () => {
   const taskConfig = {
     js: VERIFICATION_CLIENT_SRC,
-    js_output_file: 'omid-verification-client.js',
+    js_output_file: 'omid-verification-client-min.js',
     output_wrapper_file: './webpack-bootstrapper.js',
     env: 'BROWSER',
     compilation_level: 'ADVANCED',
